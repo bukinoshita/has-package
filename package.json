@@ -1,6 +1,6 @@
 {
   "name": "has-package",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Check if a project has package.json",
   "main": "index.js",
   "repository": "https://github.com/bukinoshita/has-package.git",
