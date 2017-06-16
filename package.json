@@ -1,0 +1,27 @@
+{
+  "name": "has-package",
+  "version": "0.0.0",
+  "description": "Check if a project has package.json",
+  "main": "index.js",
+  "repository": "https://github.com/bukinoshita/has-package.git",
+  "author": "Bu Kinoshita <bukinoshita@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "esnext": true,
+    "semicolon": false,
+    "spaces": true
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "index.js"
+  ]
+}
