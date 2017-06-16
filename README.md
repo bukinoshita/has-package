@@ -23,12 +23,12 @@ $ npm install --save has-package
 ```
 
 ```js
-const hasPackage = require('has-package');
+const hasPackage = require('has-package')
 
-hasPackage('foo');
+hasPackage('foo')
 //=> false
 
-hasPackage('bar');
+hasPackage('bar')
 //=> true
 ```
 
