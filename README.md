@@ -47,6 +47,10 @@ Default: `process.cwd()`
 Current working directory.
 
 
+## Related
+- [read-package](https://github.com/bukinoshita/read-package) — Reads package.json in the working directory
+
+
 ## License
 
 MIT © [Bu Kinoshita](https://bukinoshita.io)
