@@ -1,4 +1,4 @@
-# has-package
+# has-package [![Build Status](https://travis-ci.org/bukinoshita/has-package.svg?branch=master)](https://travis-ci.org/bukinoshita/has-package)
 
 > Check if a project has [package.json](https://docs.npmjs.com/files/package.json)
 
