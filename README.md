@@ -23,12 +23,12 @@ $ npm install --save has-package
 ```
 
 ```js
-const hasPackage = require('has-package');
+const hasPackage = require('has-package')
 
-hasPackage('foo');
+hasPackage('foo')
 //=> false
 
-hasPackage('bar');
+hasPackage('bar')
 //=> true
 ```
 
@@ -45,6 +45,10 @@ Type: `string`<br>
 Default: `process.cwd()`
 
 Current working directory.
+
+
+## Related
+- [read-package](https://github.com/bukinoshita/read-package) — Reads package.json in the working directory
 
 
 ## License
