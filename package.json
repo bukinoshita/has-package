@@ -1,12 +1,19 @@
 {
   "name": "has-package",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Check if a project has package.json",
   "main": "index.js",
   "repository": "https://github.com/bukinoshita/has-package.git",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
-  "keywords": ["npm", "package", "package.json", "checker", "check", "json"],
+  "keywords": [
+    "npm",
+    "package",
+    "package.json",
+    "checker",
+    "check",
+    "json"
+  ],
   "scripts": {
     "test": "xo && ava"
   },
@@ -22,5 +29,7 @@
   "engines": {
     "node": ">=4"
   },
-  "files": ["index.js"]
+  "files": [
+    "index.js"
+  ]
 }
