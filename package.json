@@ -6,6 +6,7 @@
   "repository": "https://github.com/bukinoshita/has-package.git",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
+  "keywords": ["npm", "package", "package.json", "checker", "check", "json"],
   "scripts": {
     "test": "xo && ava"
   },
@@ -21,7 +22,5 @@
   "engines": {
     "node": ">=4"
   },
-  "files": [
-    "index.js"
-  ]
+  "files": ["index.js"]
 }
