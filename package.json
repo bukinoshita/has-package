@@ -24,11 +24,11 @@
     "test": "jest --config=jest.config.json"
   },
   "devDependencies": {
-    "@sindresorhus/tsconfig": "^0.7.0",
-    "@types/jest": "^24.0.25",
-    "@types/node": "^13.1.2",
-    "jest": "^24.9.0",
-    "ts-jest": "^24.2.0",
-    "typescript": "^3.7.4"
+    "@sindresorhus/tsconfig": "0.7.0",
+    "@types/jest": "24.0.25",
+    "@types/node": "13.1.2",
+    "jest": "24.9.0",
+    "ts-jest": "24.2.0",
+    "typescript": "3.7.4"
   }
 }
