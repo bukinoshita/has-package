@@ -2,10 +2,14 @@
   "name": "has-package",
   "version": "0.0.2",
   "description": "Check if a project has package.json",
-  "main": "index.js",
-  "repository": "https://github.com/bukinoshita/has-package.git",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "bukinoshita/has-package",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
   "keywords": [
     "npm",
     "package",
@@ -15,21 +19,16 @@
     "json"
   ],
   "scripts": {
-    "test": "xo && ava"
+    "build": "tsc",
+    "prepublish": "yarn build",
+    "test": "jest --config=jest.config.json"
   },
   "devDependencies": {
-    "ava": "2.4.0",
-    "xo": "0.25.3"
-  },
-  "xo": {
-    "esnext": true,
-    "semicolon": false,
-    "spaces": true
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "files": [
-    "index.js"
-  ]
+    "@sindresorhus/tsconfig": "^0.7.0",
+    "@types/jest": "^24.0.25",
+    "@types/node": "^13.1.2",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.4"
+  }
 }
