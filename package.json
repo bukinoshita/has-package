@@ -1,6 +1,6 @@
 {
   "name": "has-package",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Check if a project has package.json",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
