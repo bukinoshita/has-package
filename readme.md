@@ -4,13 +4,11 @@
 
 Checks if a `package.json` file is present in the working directory.
 
-
 ## Install
 
 ```
-$ npm install --save has-package
+$ yarn add has-package
 ```
-
 
 ## Usage
 
@@ -32,7 +30,6 @@ hasPackage('bar')
 //=> true
 ```
 
-
 ## API
 
 ### hasPackage([cwd])
@@ -46,10 +43,9 @@ Default: `process.cwd()`
 
 Current working directory.
 
-
 ## Related
-- [read-package](https://github.com/bukinoshita/read-package) — Reads package.json in the working directory
 
+- [read-package](https://github.com/bukinoshita/read-package) — Reads package.json in the working directory
 
 ## License
 
