@@ -11,8 +11,7 @@
     "node": ">=10"
   },
   "files": [
-    "dist/index.js",
-    "dist/index.d.js"
+    "dist"
   ],
   "keywords": [
     "npm",
